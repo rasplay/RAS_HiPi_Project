@@ -67,7 +67,7 @@ BACKLIGHT_TIMEOUT = 5
 # BUTTONS ARE PULLED UP, so connect buttons to GROUND 									#
 
 # If you want to use buttons, put to True, otherwise put to False
-BUTTONS_ENABLE = True
+BUTTONS_ENABLE = False
 
 # Change the pin number, to specify where you connected them
 # If you don't want to use one of the buttons, put False as values
