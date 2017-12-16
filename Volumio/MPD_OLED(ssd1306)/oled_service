@@ -1,0 +1,12 @@
+[Unit]
+Description=Volumio & RuneAudio OLED Service
+After=multi-user.target
+
+[Service]
+ExecStartPre=/usr/bin/sh -c "sleep 3"
+ExecStart=/usr/bin/python2 /home/volumio/RuneAudio-OLED/RuneAudio_OLED.py
+Type=idle
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
